@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite" verbose="10" thread-count="1" >
+
+    <test name="Smoke Test Case for Android 1" >
+        <classes>
+            <class name="testbase.launchtest.InitialProcessTest"/>
+        </classes>
+    </test>
+
+    <test name="Smoke Test Case for Android 2" >
+        <classes>
+            <class name="testbase.launchtest.enterMobileNumberTest"/>
+        </classes>
+    </test>
+
+</suite>
