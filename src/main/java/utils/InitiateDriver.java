@@ -21,7 +21,7 @@ public class InitiateDriver {
         capabilities=new DesiredCapabilities();
         capabilities.setCapability("deviceName", "moto");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("platformVersion", "7.0");
+        capabilities.setCapability("platformVersion", "6.0.1");
         capabilities.setCapability("app", app);
         capabilities.setCapability("appPackage", "com.zelo.customer");
         capabilities.setCapability("appActivity", "com.zelo.customer.view.activity.SplashActivity");
